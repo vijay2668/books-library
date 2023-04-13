@@ -24,7 +24,7 @@ const Home = () => {
   }
 
   useEffect(() => {
-    return () => get();
+    get();
   }, []);
     
   const [query, setQuery] = useState('');
